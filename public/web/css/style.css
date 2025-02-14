@@ -1,0 +1,16 @@
+.hero-banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.534), rgba(0, 0, 0, 0.534)), url(../images/hero-bg.png);
+  background-size: cover;
+  padding: 308px 0 140px 0;
+}
+.btn-blur,
+.primary-nav {  
+  backdrop-filter: blur(20px);
+}
+/* responsive */
+@media(min-width: 1536px) {
+
+  .container {
+    max-width: 1746px;
+  }
+}
