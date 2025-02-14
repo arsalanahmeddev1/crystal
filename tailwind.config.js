@@ -17,6 +17,7 @@ export default {
             },
             colors: {
                 lightBlack: '#1E1E1E',
+                grey: '#DADADA',
             },
         },
     },
