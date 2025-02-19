@@ -11,6 +11,26 @@ export default {
     ],
     theme: {
         extend: {
+            container: {
+                center: true, // Center the container
+                padding: {
+                    DEFAULT: '1rem',
+                    sm: '0rem',
+                    md: '1rem',
+                    xl: '1rem',       
+                    xxl: '0rem',
+                    '2xl': '1rem',
+                },
+            },
+            screens: {
+                'sm': '640px',
+                'md': '768px',
+                'lg': '1024px',
+                'xl': '1280px',
+                'xxl': '1300px',
+                '2xl': '1440px',
+                '3xl': '1536px',
+            },
             fontFamily: {
                 kod: ["'Kodchasan'", ...defaultTheme.fontFamily.sans],
                 inter: ["'Inter'", ...defaultTheme.fontFamily.sans],
