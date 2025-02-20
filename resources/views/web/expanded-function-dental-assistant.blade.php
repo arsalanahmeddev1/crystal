@@ -4,7 +4,7 @@
 @section('content')
 <section class="dental-assistant-banner inner-banner mini-banner">
     <div class="container">
-        <h1 class="">dental assistant</h1>
+        <h1 class="">Expanded Fucntion Dental Assistant (EFDA)</h1>
     </div>
 </section>
 
@@ -12,18 +12,19 @@
     <div class="container">
         <div class="grid grid-cols-12">
             <div class="col-span-full pr-7 order-2 xl:col-span-6 xl:order-1">
-                <span class="hd-sm flex justify-center lg:justify-start">Dental Assistant Program Outline</span>
-                <h4 class="lg:pr-48">Become a Dental Assistant!
+                <span class="hd-sm flex justify-center lg:justify-start">EFDA Program Outline</span>
+                <h4 class="lg:pr-48">Become an EFDA!
                 </h4>
+                <p class="text-lightBlack font-bold">Serving Indianapolis, IN and surrounding areas</p>
                 <p class="text-lightBlack mb-0 font-medium">
-                    Our dental assistant program has been developed for 12 consecutive weeks.  Our program is jammed packed with information, didactic and lab portions, as well as on site observation day. Students are required to wear clinical attire (scrubs). We will provide, gloves, masks, safety goggles and all disposable items and supplies along with instruments and equipment for training.
+                    Our EFDA program has been developed for 6 consecutive weeks.  Our program is jam packed with information, didactic and lab portions Our program is conveniently offered on Friday from 9:30am - 4:30pm and or on Sundays from 9:00am – 4:00pm. Students are required to wear clinical attire (scrubs). We will provide gloves, masks, safety goggles and all disposable items and supplies along with instruments and equipment for training. </p>
+                <p class="text-lightBlack mb-0 font-medium">
+                    Students will be required to carry themselves professionally, have long hair pulled back, clean, close toe shoes. </p>
+                <p class="text-lightBlack mb-0 font-medium">
+                    Our program takes place in a facility that is set up as a modern dental office with several dental operatories, laboratory, and cutting-edge equipment.
                 </p>
                 <p class="text-lightBlack mb-0 font-medium">
-                    Students will be required to carry themselves professionally, have long hair pulled back, clean, close toe shoes.
-                </p>
-                <p class="text-lightBlack mb-0 font-medium">
-                    Our program takes place in a modern facility equipped similar to a functional dental office with several dental chairs, laboratory, and cutting-edge equipment such as digital radiology, Pano unit, CAD/CAM system with intraoral scanner and milling unit.
-                </p>
+                    The tuition cost for the expanded functions dental assisting program is $2100.  A down payment of $700 is required before the first day of class. This will take your tuition cost to $1400. You will be set up on an auto payment for 3 months to pay the remaining $1400. </p>
             </div>
 
             <div class=" col-span-full mb-10 order-1 xl:col-span-6 xl:order-2 xl:mb-0">
@@ -33,16 +34,9 @@
             </div>
         </div>
 
-        <div class="grid-bottom-text mt-[1rem]">
-            <span class="hd-sm italic">
-                During your 12-week dental assistant training program you will have the opportunity to complete a minimum of 8 hours of externship in one of our partner locations, so you can apply the skills you have learned in a real life dental office setting.
-            </span>
+        <div class="grid-bottom-text mt-[2rem]">
             <p class="text-lightBlack mt-2 mb-0 pr-10 font-medium">
                 Enrollment is open until 2 days of the beginning of the next program.  The program runs consecutively for 12 weeks with exception of major holidays (Christmas, New Year, Independence Day Memorial Day, Labor Day, and Easter). If a class is scheduled during these holidays, it will move a week back or to a makeup day if possible.
-            </p>
-            <p class="text-lightBlack mt-2 mb-0 pr-10 font-medium">
-                The cost for the program is $4100.00.  This includes, $100.00 registration fee, Instructional Fees-Tuition $3300.00 and consumable supplies (clinical/office) $700.00. <br>
-                A deposit of $350 is required at the time of enrollment to secure your spot in the upcoming class.
             </p>
         </div>
 
@@ -67,9 +61,9 @@
             </div>
         </div>
 
-        <div class="grid grid-cols-2 gap-x-10 place-items-center">
-            <div class="col-span-2 order-1 xl:col-span-1">
-                <ul class="general-info flex flex-col justify-between space-y-5 mt-10 xl:mt-0 md:flex-row 2xl:justify-between">
+        <div class="grid grid-cols-12">
+            <div class="col-span-full mt-10 order-2 2xl:order-1 2xl:mt-0 2xl:col-span-6">
+                <ul class="general-info flex justify-between 2xl:justify-between">
                     <li>
                         <div class="info-icon mb-4"><img src="{{ asset('web/images/card-icons/payment-icon.png') }}" alt=""></div>
                         <div>
@@ -98,7 +92,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="col-span-2 xl:col-span-1">
+            <div class="col-span-full order-1 2xl:order-2 2xl:col-span-6">
                 <div class="section-img-wrap">
                     <img src="{{ asset('web/images/dental-assistant-feedback-img.png')}}" alt="">
                 </div>
@@ -108,25 +102,22 @@
         <div class="dental-info-cards">
             <div class="card-light dental-info-card bg-grey">
                 <h5 class="hd-sm mb-3">Class Schedule</h5>
-                <p class="mb-10">
-                    Lorem ipsum dolor sit amet scing elit. Ut elit tellus, luctus nec ullamcorper matt pulvinar
-                    dapibus.
+                <p class="text-lightBlack mb-10">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry
                 </p>
                 <a href="" class="uppercase font-bold text-[16px] rounded-anchor block w-fit">click here</a>
             </div>
             <div class="card-light dental-info-card bg-grey">
-                <h5 class="hd-sm mb-3">Class Schedule</h5>
-                <p class="mb-10">
-                    Lorem ipsum dolor sit amet scing elit. Ut elit tellus, luctus nec ullamcorper matt pulvinar
-                    dapibus.
+                <h5 class="hd-sm mb-3">Financial Options Available</h5>
+                <p class="text-lightBlack mb-10">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry
                 </p>
                 <a href="" class="uppercase font-bold text-[16px] rounded-anchor block w-fit">click here</a>
             </div>
             <div class="card-light dental-info-card bg-grey">
-                <h5 class="hd-sm mb-3">Class Schedule</h5>
-                <p class="mb-10">
-                    Lorem ipsum dolor sit amet scing elit. Ut elit tellus, luctus nec ullamcorper matt pulvinar
-                    dapibus.
+                <h5 class="hd-sm mb-3">Job Placement Assistance</h5>
+                <p class="text-lightBlack mb-10">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry
                 </p>
                 <a href="" class="uppercase font-bold text-[16px] rounded-anchor block w-fit">click here</a>
             </div>
@@ -149,7 +140,6 @@
 
                 </div>
             </div>
-
             <div class="timetable-card">
                 <div class="card-light space-y-[30px]">
                     <h4 class="hd-sm">WEEK 1</h4>
@@ -162,7 +152,6 @@
 
                 </div>
             </div>
-
             <div class="timetable-card">
                 <div class="card-light space-y-[30px]">
                     <h4 class="hd-sm">WEEK 1</h4>
@@ -175,7 +164,6 @@
 
                 </div>
             </div>
-
             <div class="timetable-card">
                 <div class="card-light space-y-[30px]">
                     <h4 class="hd-sm">WEEK 1</h4>
@@ -188,110 +176,5 @@
 
                 </div>
             </div>
-
-            <div class="timetable-card">
-                <div class="card-light space-y-[30px]">
-                    <h4 class="hd-sm">WEEK 1</h4>
-                    <p>
-                        Dental Assisting Principles
-                    </p>
-                    <p class="uppercase">
-                        Clock Hours: 7 Lecture, 1 Lab
-                    </p>
-
-                </div>
-            </div>
-
-            <div class="timetable-card">
-                <div class="card-light space-y-[30px]">
-                    <h4 class="hd-sm">WEEK 1</h4>
-                    <p>
-                        Dental Assisting Principles
-                    </p>
-                    <p class="uppercase">
-                        Clock Hours: 7 Lecture, 1 Lab
-                    </p>
-
-                </div>
-            </div>
-
-            <div class="timetable-card">
-                <div class="card-light space-y-[30px]">
-                    <h4 class="hd-sm">WEEK 1</h4>
-                    <p>
-                        Dental Assisting Principles
-                    </p>
-                    <p class="uppercase">
-                        Clock Hours: 7 Lecture, 1 Lab
-                    </p>
-
-                </div>
-            </div>
-
-            <div class="timetable-card">
-                <div class="card-light space-y-[30px]">
-                    <h4 class="hd-sm">WEEK 1</h4>
-                    <p>
-                        Dental Assisting Principles
-                    </p>
-                    <p class="uppercase">
-                        Clock Hours: 7 Lecture, 1 Lab
-                    </p>
-
-                </div>
-            </div>
-
-            <div class="timetable-card">
-                <div class="card-light space-y-[30px]">
-                    <h4 class="hd-sm">WEEK 1</h4>
-                    <p>
-                        Dental Assisting Principles
-                    </p>
-                    <p class="uppercase">
-                        Clock Hours: 7 Lecture, 1 Lab
-                    </p>
-
-                </div>
-            </div>
-
-            <div class="timetable-card">
-                <div class="card-light space-y-[30px]">
-                    <h4 class="hd-sm">WEEK 1</h4>
-                    <p>
-                        Dental Assisting Principles
-                    </p>
-                    <p class="uppercase">
-                        Clock Hours: 7 Lecture, 1 Lab
-                    </p>
-
-                </div>
-            </div>
-
-            <div class="timetable-card">
-                <div class="card-light space-y-[30px]">
-                    <h4 class="hd-sm">WEEK 1</h4>
-                    <p>
-                        Dental Assisting Principles
-                    </p>
-                    <p class="uppercase">
-                        Clock Hours: 7 Lecture, 1 Lab
-                    </p>
-
-                </div>
-            </div>
-
-            <div class="timetable-card">
-                <div class="card-light space-y-[30px]">
-                    <h4 class="hd-sm">WEEK 1</h4>
-                    <p>
-                        Dental Assisting Principles
-                    </p>
-                    <p class="uppercase">
-                        Clock Hours: 7 Lecture, 1 Lab
-                    </p>
-
-                </div>
-            </div>
-        </div>
 </section>
 @endsection
