@@ -22,7 +22,7 @@ html,body {
   background: linear-gradient(180deg, #EDEDED 76.44%, #FFFFFF 100%);
 }
 
-.video-thumbnail-wrapper::before {
+.video-card-wrapper::before {
   content: '';
   position: absolute;
   top: 0;

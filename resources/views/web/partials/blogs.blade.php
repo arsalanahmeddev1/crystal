@@ -6,11 +6,6 @@
                 <h2 class="hd-medium">recent Blog & Articles</h2>
             </div>
             <div>
-                <p class="max-w-[379px]">
-                    Lorem ipsum dolor sit amet, consectetur elit. Ut elit tellus, luctus nec ullamcorper.
-                </p>
-            </div>
-            <div>
                 <a href="" class="primary-btn btn bg-grey">Explore All</a>
             </div>
         </div>
@@ -18,61 +13,65 @@
             <div class="blog-card-wrapper border border-grey rounded-[20px]">
                 <img src="{{ asset('web/images/blog-1.png') }}" class="w-full" alt="blog-img">
                 <div class="blog-card-bottom   ">
-                    <div class="flex items-center gap-[14px] mb-[30px]">
-                        <p class="font-medium">Lorem ipsum</p>
-                        <div class="flex items-center gap-[3px]">
+                    {{-- <div class="flex items-center gap-[14px] mb-[30px]"> --}}
+                        <p class="font-medium mb-[10px]">Why Dental Assisting is the Career Everyone’s Talking About</p>
+                        <p class="font-medium mb-[16px]">february 4, 2025</p>
+                        {{-- <div class="flex items-center gap-[3px]">
                             <div class="dot w-[6px] h-[6px] rounded-full bg-lightBlack"></div>
                             <div class="dot w-[6px] h-[6px] rounded-full bg-lightBlack"></div>
                         </div>
-                        <p class="font-medium">february 4, 2025</p>
-                    </div>
-                    <p class="mb-[30px] max-w-[325px] font-medium">Lorem ipsm dolor elit telus luctus nec matt pulvinar dapibus.</p>
-                    <p class="max-w-[422px] font-medium">Lorem ipsm dolor elit telus luctus nec matt pulvinar dapibus.</p>
+                         --}}
+                    {{-- </div> --}}
+                    <p class="mb-[30px] max-w-[325px]  text-[#777777]">Steady jobs, great pay, and hands-on work. See why dental assisting is one of the best career moves you can make right now!
+                    </p>
                 </div>
             </div>
             <div class="blog-card-wrapper border border-grey rounded-[20px]">
                 <img src="{{ asset('web/images/blog-2.png') }}" class="w-full" alt="blog-img">
-                <div class="blog-card-bottom ">
-                    <div class="flex items-center gap-[14px] mb-[30px]">
-                        <p class="font-medium">Lorem ipsum</p>
-                        <div class="flex items-center gap-[3px]">
+                <div class="blog-card-bottom   ">
+                    {{-- <div class="flex items-center gap-[14px] mb-[30px]"> --}}
+                        <p class="font-medium mb-[10px]">How to Start a Dental Career Fast without a Degree</p>
+                        <p class="font-medium mb-[16px]">february 4, 2025</p>
+                        {{-- <div class="flex items-center gap-[3px]">
                             <div class="dot w-[6px] h-[6px] rounded-full bg-lightBlack"></div>
                             <div class="dot w-[6px] h-[6px] rounded-full bg-lightBlack"></div>
                         </div>
-                        <p class="font-medium">february 4, 2025</p>
-                    </div>
-                    <p class="mb-[30px] max-w-[325px] font-medium">Lorem ipsm dolor elit telus luctus nec matt pulvinar dapibus.</p>
-                    <p class="max-w-[422px] font-medium">Lorem ipsm dolor elit telus luctus nec matt pulvinar dapibus.</p>
+                         --}}
+                    {{-- </div> --}}
+                    <p class="mb-[30px] max-w-[325px]  text-[#777777]">Skip the years of college and get straight into a high-demand job with real hands-on training. Pick a program that gives you real skills and
+                    </p>
                 </div>
             </div>
             <div class="blog-card-wrapper border border-grey rounded-[20px]">
                 <img src="{{ asset('web/images/blog-3.png') }}" class="w-full" alt="blog-img">
-                <div class="blog-card-bottom ">
-                    <div class="flex items-center gap-[14px] mb-[30px]">
-                        <p class="font-medium">Lorem ipsum</p>
-                        <div class="flex items-center gap-[3px]">
+                <div class="blog-card-bottom   ">
+                    {{-- <div class="flex items-center gap-[14px] mb-[30px]"> --}}
+                        <p class="font-medium mb-[10px]">Is being a Dental Assistant worth it?</p>
+                        <p class="font-medium mb-[16px]">february 4, 2025</p>
+                        {{-- <div class="flex items-center gap-[3px]">
                             <div class="dot w-[6px] h-[6px] rounded-full bg-lightBlack"></div>
                             <div class="dot w-[6px] h-[6px] rounded-full bg-lightBlack"></div>
                         </div>
-                        <p class="font-medium">february 4, 2025</p>
-                    </div>
-                    <p class="mb-[30px] max-w-[325px] font-medium">Lorem ipsm dolor elit telus luctus nec matt pulvinar dapibus.</p>
-                    <p class="max-w-[422px] font-medium">Lorem ipsm dolor elit telus luctus nec matt pulvinar dapibus.</p>
+                         --}}
+                    {{-- </div> --}}
+                    <p class="mb-[30px] max-w-[325px]  text-[#777777]">Flexible hours, solid pay, and real career growth, being a dental assistant comes with way more benefits than you think!
+                    </p>
                 </div>
             </div>
-            <div class="blog-card-wrapper border border-grey rounded-[20px] xxl:col-start-2 3xl:col-start-auto">
+            <div class="blog-card-wrapper border border-grey rounded-[20px] xl:col-start-2 3xl:col-start-auto ">
                 <img src="{{ asset('web/images/blog-4.png') }}" class="w-full" alt="blog-img">
-                <div class="blog-card-bottom ">
-                    <div class="flex items-center gap-[14px] mb-[30px]">
-                        <p class="font-medium">Lorem ipsum</p>
-                        <div class="flex items-center gap-[3px]">
+                <div class="blog-card-bottom   ">
+                    {{-- <div class="flex items-center gap-[14px] mb-[30px]"> --}}
+                        <p class="font-medium mb-[10px]">What Dental Offices Really Look for in a Dental Assistant</p>
+                        <p class="font-medium mb-[16px]">february 4, 2025</p>
+                        {{-- <div class="flex items-center gap-[3px]">
                             <div class="dot w-[6px] h-[6px] rounded-full bg-lightBlack"></div>
                             <div class="dot w-[6px] h-[6px] rounded-full bg-lightBlack"></div>
                         </div>
-                        <p class="font-medium">february 4, 2025</p>
-                    </div>
-                    <p class="mb-[30px] max-w-[325px] font-medium">Lorem ipsm dolor elit telus luctus nec matt pulvinar dapibus.</p>
-                    <p class="max-w-[422px] font-medium">Lorem ipsm dolor elit telus luctus nec matt pulvinar dapibus.</p>
+                         --}}
+                    {{-- </div> --}}
+                    <p class="mb-[30px] max-w-[325px]  text-[#777777]">It’s more than just a certificate; dental offices want skills, confidence, and the right attitude. Here’s what makes you stand out!
+                    </p>
                 </div>
             </div>
         </div>

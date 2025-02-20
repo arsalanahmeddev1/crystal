@@ -1,10 +1,10 @@
 <section class="cta-sec py-[40px] bg-grey">
     <div class="container">
-        <div class="flex flex-wrap xxl:flex-nowrap items-center justify-center lg:justify-center gap-y-[20px] xxl:justify-between lg:gap-y-[20px] xxl:gap-y-[0px]">
+        <div class="flex flex-wrap xxl:flex-nowrap items-center justify-center  gap-y-[20px] xl:justify-between lg:gap-y-[20px] xxl:gap-y-[0px]">
             <div>
                 <h2 class="text-[20px]  xxl:text-[24px] 3xl:text-[40px] font-bold italic uppercase">call & text us now</h2>
             </div>
-            <div class="flex flex-wrap justify-center lg:justify-start  xxl:flex-nowrap items-center gap-x-[90px] xxl:gap-x-[50px] 3xl:gap-x-[90px] gap-y-[20px]">
+            <div class="flex flex-wrap justify-center lg:justify-start  xxl:flex-nowrap items-center gap-x-[90px] xl:gap-x-[50px] 3xl:gap-x-[90px] gap-y-[20px]">
                 <div class="flex items-center gap-[30px] flex-col lg:flex-row">
                     <div class="bg-white rounded-full w-[70px] h-[70px] flex justify-center items-center">
                         <img src="{{ asset('web/images/call.svg') }}" class="w-[30px] h-[30px] " alt="call">

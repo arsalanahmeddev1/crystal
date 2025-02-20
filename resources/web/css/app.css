@@ -41,7 +41,7 @@
      @apply font-bold text-[40px];
    }
    .training-list li {
-    @apply flex items-center gap-[20px] flex-wrap 3xl:flex-nowrap justify-center sm:justify-start text-center sm:text-start 
+    @apply flex flex-wrap lg:flex-nowrap gap-[20px]  3xl:flex-nowrap justify-center sm:justify-start text-center sm:text-start 
    }
    .training-list-icon {
     @apply bg-[#EDEDED] aspect-square  overflow-hidden rounded-full w-[90px] h-[90px] lg:h-[80px]  lg:w-[80px] 3xl:w-[90px] 3xl:h-[90px] flex items-center justify-center
@@ -50,7 +50,7 @@
     @apply lg:h-[30px]  lg:w-[30px] 3xl:w-[38px] 3xl:h-[38px] 
    }
    .training-sec .traning-center-img {
-    @apply max-w-[560px] max-h-[240px] md:max-w-[440px] lg:max-w-[430px] xl:max-w-[560px] 2xl:max-w-full 2xl:max-h-full 
+    @apply max-w-[560px] max-h-[240px] md:max-w-[440px] lg:max-w-[430px] xl:max-h-[370px] xl:max-w-[560px] 2xl:max-w-[710px] 2xl:max-h-[500px] 
    }
    .training-list h3 {
     @apply  pb-[14px]
@@ -102,5 +102,11 @@
    }
    .inner-banner {
     @apply bg-cover  bg-no-repeat
+   }
+   .video-card-wrapper {
+    @apply h-[440px] relative
+   }
+   .video-card-wrapper .card-img-top {
+    @apply h-full object-cover rounded-[30px]
    }
 }
