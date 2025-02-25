@@ -21,16 +21,16 @@
                     <li><a href="javascript:;">Privacy Policy</a></li>
                     <li><a href="javascript:;">Press Files</a></li>
                     <li><a href="javascript:;">FAQs</a></li>
-                    <li><a href="javascript:;">Contact</a></li>
+                    <li><a href="./contact">Contact</a></li>
                 </ul>
             </div>
             <div>
                 <ul class="footer-nav">
                     <h4 class="text-[22px] font-medium mb-[25px]">Explore</h4>
-                    <li><a href="javascript:;">Home</a></li>
-                    <li><a href="javascript:;">About</a></li>
-                    <li><a href="javascript:;">programs</a></li>
-                    <li><a href="javascript:;">Gallery</a></li>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="./class-schedule">Class Schedule</a></li>
+                    <li><a href="./gallery">Gallery</a></li>
                     <li><a href="javascript:;">Testimonials</a></li>
                 </ul>
             </div>

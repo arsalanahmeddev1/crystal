@@ -1,3 +1,4 @@
+import { plugin } from 'postcss';
 import defaultTheme from 'tailwindcss/defaultTheme';
 
 /** @type {import('tailwindcss').Config} */
@@ -38,8 +39,9 @@ export default {
             colors: {
                 lightBlack: '#1E1E1E',
                 grey: '#DADADA',
+                greyLight: '#D9D9D9',
             },
         },
     },
-    plugins: [],
+    plugins: ['flowbite/plugin'],
 };

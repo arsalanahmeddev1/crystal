@@ -2,19 +2,19 @@
     <div class="container mx-auto">
         <div class="flex justify-between flex-wrap sm:flex-nowrap  items-center">
             <div class="logo w-full sm:w-auto flex justify-center mb-[20px] sm:mb-0  ">
-                <img src="{{ asset('web/images/logo.png') }}" class="lg:max-w-[100px]  xxl:max-w-[136px]" alt="logo">
+                <a href="/"><img src="{{ asset('web/images/logo.png') }}" class="lg:max-w-[100px]  xxl:max-w-[136px]" alt="logo"></a>
             </div>
             <nav class="">
-                <ul class="primary-nav  flex 3xl:gap-[40px] xxl:gap-[20px] gap-[23px]">
+                <ul class="primary-nav  flex xxl:gap-[20px] gap-[23px]">
                     <div class="close-icon menu-toggle">
                         <i class="fa-solid fa-xmark "></i>
                       </div>
-                    <li><a href="javascript:;">About</a></li>
-                    <li><a href="javascript:;">Dental Assistant</a></li>
-                    <li><a href="javascript:;">EFDA</a></li>
-                    <li><a href="javascript:;">Coronal Polishing & Fluoride Application</a></li>
-                    <li><a href="javascript:;">Payment Options</a></li>
-                    <li><a href="javascript:;">Gallery</a></li>
+                    <li><a href="about">About</a></li>
+                    <li><a href="dental-assistant">Dental Assistant</a></li>
+                    <li><a href="expanded-function-dental-assistant">EFDA</a></li>
+                    <li><a href="coronal-polishing">Coronal Polishing & Fluoride Application</a></li>
+                    <li><a href="payment-options">Payment Options</a></li>
+                    <li><a href="gallery">Gallery</a></li>
                 </ul>
             </nav>
             <div class="flex justify-between items-center gap-[34px]">
