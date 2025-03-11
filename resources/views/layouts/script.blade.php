@@ -3,6 +3,13 @@
 
     <!-- latest jquery-->
     <script src="{{ asset('assets/js/jquery.min.js') }}"></script>
+    <script src="{{asset('assets/js/editors/quill.js')}}"></script>
+
+    {{-- <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.datatables.net/2.2.2/js/dataTables.js"></script>
+    <script src="https://cdn.datatables.net/2.2.2/js/dataTables.bootstrap5.js"></script> --}}
+    
+
     <script src="{{ asset('assets/js/height-equal.js') }}"></script>
     <script src="{{ asset('assets/js/modalpage/validation-modal.js') }}"></script> --}}
 
@@ -58,8 +65,9 @@
     <script src="{{ asset('assets/js/flat-pickr/flatpickr.js')}}"></script>
 
     <script src="{{ asset('assets/js/sweet-alert/sweetalert.min.js') }}"></script>
-
     <script src="{{ asset('assets/js/form-validation-custom.js') }}"></script>
+    
+
     <script src="{{ asset('assets/js/custom.js') }}"></script>
 
     @yield('script')

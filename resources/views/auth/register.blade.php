@@ -85,13 +85,11 @@
 @section('content')
     <div class="container-fluid p-0">
         <div class="row m-0">
-            <div class="col-xl-5"><img class="bg-img-cover bg-center" src="{{ asset('assets/images/login/3.jpg') }}"
-                    alt="looginpage"></div>
-            <div class="col-xl-7 p-0">
+            <div class="col-xl-12 p-0">
                 <div class="login-card">
                     <div>
                         <div><a class="logo" href="{{ route('register') }}"><img class="img-fluid for-light"
-                                    src="{{ asset('assets/images/logo/login.png') }}" alt="looginpage"><img
+                                    src="{{ asset('assets/images/logo/logo.png') }}" alt="looginpage"><img
                                     class="img-fluid for-dark" src="{{ asset('assets/images/logo/logo_dark.png') }}"
                                     alt="looginpage"></a></div>
                         <div class="login-main">
@@ -164,7 +162,7 @@
                                             </span>
                                         @enderror
                                     </div>
-                                    <button class="btn btn-primary btn-block" type="submit">
+                                    <button class="btn btn-primary w-100 btn-block" type="submit">
                                         {{ __('Create Account') }}</button>
                                 </div>
                                 <p class="mt-4 mb-0 text-center">Already have an account?<a class="ms-2"

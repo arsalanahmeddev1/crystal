@@ -78,7 +78,19 @@ Route::get('dashboard/user-profile', function () {
     return view('dashboard/user-profile');
 });
 Route::get('dashboard/course-list', function () {
-    return view('dashboard/course-list');
+    return view('dashboard.course-list')->name('dashboard.course-list');
+});
+Route::get('dashboard/messages', function () {
+    return view('dashboard.messages.index');
+});
+Route::get('dashboard/course/add-course', function () {
+    return view('dashboard.course.add-course');
+});
+Route::get('dashboard/add-quize', function () {
+    return view('dashboard.add-quize');
+});
+Route::get('dashboard/edit-profile', function () {
+    return view('dashboard.edit-profile');
 });
 // Guest Routes
 Route::group(['middleware' => ['guest']], function () {

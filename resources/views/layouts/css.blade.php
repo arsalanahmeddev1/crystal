@@ -21,7 +21,7 @@
 {{-- <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/vendors/datatables.css') }}"> --}}
 <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/vendors/jquery.dataTables.css')}}">
 <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/vendors/select.bootstrap5.css')}}">
-{{-- <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/vendors/flatpickr/flatpickr.min.css')}}"> --}}
+<link rel="stylesheet" type="text/css" href="{{ asset('assets/css/vendors/flatpickr/flatpickr.min.css')}}">
 <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/vendors/datatable-extension.css') }}">
 {{-- <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/datatable.css') }}"> --}}
 
@@ -30,6 +30,8 @@
 
 <!-- Bootstrap css-->
 <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/vendors/bootstrap.css') }}">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdn.datatables.net/2.2.2/css/dataTables.bootstrap5.css">
 <!-- App css-->
 {{-- @vite(['public/assets/scss/app.scss']) --}}
 <link id="color" rel="stylesheet" href="{{ asset('assets/css/color-1.css') }}" media="screen">
@@ -41,8 +43,9 @@
 <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900&amp;display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css">
 <link rel="stylesheet" type="text/css" href="{{('assets/css/vendors/date-picker.css')}}">
-<link rel="stylesheet" type="text/css" href="{{('assets/css/vendors/flatpickr/flatpickr.min.css')}}">
+{{-- <link rel="stylesheet" type="text/css" href="{{('assets/css/vendors/flatpickr/flatpickr.min.css')}}"> --}}
 {{-- <link rel="stylesheet" href="{{asset('assets/css/dashboard-3.css')}}">
 <link rel="stylesheet" href="{{asset('assets/css/dashboard-4.css')}}">
 <link rel="stylesheet" href="{{asset('assets/css/dashboard-7.css')}}"> --}}
+
 <link rel="stylesheet" href="{{asset('assets/css/custom.css')}}">
