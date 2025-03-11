@@ -20,15 +20,8 @@
                         <div class="mobile-back text-end"><span>{{ __('Back') }}</span><i class="fa fa-angle-right ps-2"
                                 aria-hidden="true"></i></div>
                     </li>
-                    {{-- <li class="sidebar-list">
-                        <a class="sidebar-link sidebar-title link-nav {{ request()->routeIs('dashboard') ? 'active' : '' }}" href="{{ route('dashboard') }}">
-                            <svg class="stroke-icon"></svg>
-                            <span>{{ __('Dashboard') }}</span>
-                            <div class="according-menu"><i class="fa fa-angle-right"></i></div>
-                        </a>
-                    </li> --}}
                     <li class="sidebar-list">
-                        <a class="sidebar-link sidebar-title link-nav" href="{{ route('dashboard.course-list') }}">
+                        <a class="sidebar-link sidebar-title link-nav {{ request()->routeIs('dashboard') ? 'active' : '' }}" href="{{ route('dashboard') }}">
                             <svg class="stroke-icon"></svg>
                             <span>{{ __('Dashboard') }}</span>
                             <div class="according-menu"><i class="fa fa-angle-right"></i></div>
@@ -57,13 +50,6 @@
                             </a>
                         </li>
                     @endcan
-                    <li class="sidebar-list">
-                            <a class="sidebar-link sidebar-title link-nav {{ request()->routeIs('dashboard.course.*') ? 'active' : '' }}"
-                                href="{{ route('dashboard.course.index') }}">
-                                <i class="icon-pin"></i>
-                                <span>Course</span>
-                            </a>
-                        </li>
                     @can(['view user'])
                         <li class="sidebar-list">
                             <a class="sidebar-link sidebar-title link-nav {{ request()->routeIs('dashboard.user.*') ? 'active' : '' }}"
