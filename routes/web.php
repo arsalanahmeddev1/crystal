@@ -78,7 +78,7 @@ Route::get('dashboard/user-profile', function () {
     return view('dashboard/user-profile');
 });
 Route::get('dashboard/course-list', function () {
-    return view('dashboard.course-list')->name('dashboard.course-list');
+    return view('dashboard.course-list');
 });
 Route::get('dashboard/messages', function () {
     return view('dashboard.messages.index');
